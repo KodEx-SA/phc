@@ -1,0 +1,455 @@
+{
+  "title_tn": "Thuto tsa Sekolo sa Phuthegwana ya Pentekoste ya Boitshepiso",
+  "title_en": "Sunday School Teachings of the Pentecostal Holiness Church Congregation",
+  "chapters": [
+    {
+      "id": "ch1",
+      "label": "KGAOLO YA NTLHA",
+      "label_en": "Chapter One",
+      "title_tn": "Leina la Kereke",
+      "title_en": "The Name of the Church",
+      "blocks": [
+        {
+          "type": "qa",
+          "id": "ch1_q1",
+          "question_tn": "Leina la kereke ya rona ke mang?",
+          "answer_tn": "Pentekoste ya boitshepiso.",
+          "question_en": "What is the name of our church?",
+          "answer_en": "Pentecostal Holiness."
+        },
+        {
+          "type": "qa",
+          "id": "ch1_q2",
+          "question_tn": "Leina le, le kaya eng?",
+          "answer_tn": "Le kaya boitshepiso mo mothong yo o tsetsweng la bobedi, a itshepisiwang ka moya o boitshepo, o a amogelang ga a kolobediwa ka moya o boitshepo.",
+          "question_en": "What does that name mean?",
+          "answer_en": "It means the holiness found in a person who is born again, sanctified by the Holy Spirit, which they receive when baptized by the Holy Spirit."
+        },
+        {
+          "type": "qa",
+          "id": "ch1_q3",
+          "question_tn": "Gore Pentekoste ke goreng?",
+          "answer_tn": "Pentekoste ke lefoko la se Gerika ke gore 50 (masome a matlhano).",
+          "question_en": "Why is it called Pentecost?",
+          "answer_en": "Pentecost is a Greek word meaning 50 (fifty)."
+        },
+        { "type": "heading", "id": "ch1_h1", "label_tn": "TLHALOSO", "label_en": "Explanation" },
+        {
+          "type": "text",
+          "id": "ch1_t1",
+          "content_tn": "Baiseraele fa ba tswa kwa Egepeta ba ne ba ema fa pele ga thaba ya Sinai, ba amogela melao e lesome mo Modimong, ka letsatsi la 50. Eksoda 19. E rile fa ba tsena mo lefatsheng la polelopele ba dira moletlo ka letsatsi la bo 50 (Feast of Pentecost). E ne e le moletlo wa boitumelo le tebogo. Ba ne ba lebogela go ntshiwa mo bokgobeng ba kwa Egepeta, le go tsengwa mo lefatsheng le le elelang mašhi le dinotshi. Keresete o tsogile bafung a bonwa a tsamaya gareng ga batho malatsi a le 40. Ditiro 1:3.",
+          "content_en": "When the Israelites came out of Egypt, they stood before Mount Sinai and received the Ten Commandments from God on the 50th day (Exodus 19). When they entered the promised land, they held a feast on the 50th day (the Feast of Pentecost). It was a feast of joy and thanksgiving. They gave thanks for being freed from slavery in Egypt and brought into a land flowing with milk and honey. Christ rose from the dead and was seen walking among the people for 40 days (Acts 1:3)."
+        },
+        {
+          "type": "text",
+          "id": "ch1_t2",
+          "content_tn": "Ka letsatsi la 40 a tlhatlogela Legodimong. Ditiro 1:9. Balatedi ba gagwe le baitshepi ba le 120 ba leta tshepiso ya ga Keresete. Ditiro 1:5&8. Ba leta kwa Jerusalema malatsi a le some. Ka letsatsi la bo lesome, moya o boitshepo wa goromediwe ke Modimo mo go bona. Fa re kopanya 40 le lesome ke 50. Moya o tsholgile ka letsatsi la bo 50 morago ga tsogo ya Jesu Kereste Morena wa rona.",
+          "content_en": "On the 40th day He ascended into heaven (Acts 1:9). His followers and disciples, 120 of them, waited for the promise of Christ (Acts 1:5,8). They waited in Jerusalem for ten days. On the tenth day, the Holy Spirit was poured out on them by God. If we add 40 and 10, that makes 50. The Spirit was poured out on the 50th day after the resurrection of Jesus Christ our Lord."
+        },
+        {
+          "type": "text",
+          "id": "ch1_t3",
+          "content_tn": "Dikao tse pedi tse di mo kgolaganong e kgologolo le e ntsha di supa gore kgolagano e porofeta tsholo ya moya o o boitshepo. Ke ka moo 50 kgotsa Pentecoste e leng lefoko le le botlhokwa. Pentecoste e bong kolobetso ka moya o o boitshepo le maikaelelo ya kutu ya tumelo ya rona.",
+          "content_en": "These two examples, found in the Old and New Testaments, show that the covenant foretold the outpouring of the Holy Spirit. That is why 50, or Pentecost, is such an important word. Pentecost represents the baptism by the Holy Spirit and the founding purpose of our faith."
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "label": "KGAOLO YA BOBEDI",
+      "label_en": "Chapter Two",
+      "title_tn": "Sebe le Tsalo ya Bobedi",
+      "title_en": "Sin and the Second Birth",
+      "blocks": [
+        {
+          "type": "qa",
+          "id": "ch2_q1",
+          "question_tn": "Sebe ke eng?",
+          "answer_tn": "Sebe ke go tlola molao Modimo.",
+          "question_en": "What is sin?",
+          "answer_en": "Sin is transgressing God's law."
+        },
+        {
+          "type": "qa",
+          "id": "ch2_q2",
+          "question_tn": "Kotsi ya sebe ke eng?",
+          "answer_tn": "Se aroganya motho le Modimo.",
+          "question_en": "What is the danger of sin?",
+          "answer_en": "It separates a person from God."
+        },
+        {
+          "type": "qa",
+          "id": "ch2_q3",
+          "question_tn": "Go kwadile fa kae?",
+          "answer_tn": "Go kwadile mo go Isaya 59:2. Ya reng? Mme ditshiamololo tsa lona di lo lomologanya le Modimo wa rona; maleo a rona a lo sira sefatlhego sa ona gore a seka a re utlwa.",
+          "question_en": "Where is this written?",
+          "answer_en": "It is written in Isaiah 59:2. It says: 'But your iniquities have separated you from your God; your sins have hidden His face from you so that He will not hear you.'"
+        },
+        { "type": "heading", "id": "ch2_h1", "label_tn": "TSEBE YA BOBEDI", "label_en": "Lesson Two" },
+        {
+          "type": "qa",
+          "id": "ch2_q4",
+          "question_tn": "Kalafo ya bolwetse bo ebong sebe ke eng?",
+          "answer_tn": "Ke tshokologo.",
+          "question_en": "What is the cure for the sickness that is sin?",
+          "answer_en": "It is repentance."
+        },
+        {
+          "type": "qa",
+          "id": "ch2_q5",
+          "question_tn": "Tshokologo ke eng?",
+          "answer_tn": "Tshokologo ke go ikwatlhaela sebe tota le boiteko ka tlhwafalo le go se tlogela.",
+          "question_en": "What is repentance?",
+          "answer_en": "Repentance is truly acknowledging one's sin and earnestly striving never to return to it."
+        },
+        { "type": "heading", "id": "ch2_h2", "label_tn": "KAROLO YA BOBEDI", "label_en": "Part Two" },
+        { "type": "heading", "id": "ch2_h3", "label_tn": "TSALO YA BOBEDI", "label_en": "The Second Birth" },
+        {
+          "type": "qa",
+          "id": "ch2_q6",
+          "question_tn": "Tsalo ya bobedi ke eng?",
+          "answer_tn": "Tsalo ya bobedi ke tsalo ya moya o o fetolang nama, moya le tlhaloganyo. Motho o tshwanetse go tsala la bobedi a mogela bophelo bo bosha bo bo tlisiwang ke kgolagano le Modimo.",
+          "question_en": "What is the second birth?",
+          "answer_en": "The second birth is a birth of the Spirit that transforms the flesh, the spirit, and the mind. A person must be born again to receive the new life brought by a covenant relationship with God."
+        },
+        {
+          "type": "qa",
+          "id": "ch2_q7",
+          "question_tn": "Go kwadilwe fa kae?",
+          "answer_tn": "Go kwadilwe mo go Johane 3:3. Ya reng? Jesu a mofetola a re; Ammaruri ammaruri ke a go raya, fa motho a sa tsalwe sesha ga a ka ke a bona bogosi jwa puso ya Modimo.",
+          "question_en": "Where is this written?",
+          "answer_en": "It is written in John 3:3. It says: Jesus answered him, 'Truly, truly I say to you, unless one is born again, he cannot see the kingdom of God.'"
+        },
+        {
+          "type": "qa",
+          "id": "ch2_q8",
+          "question_tn": "Gape go kwadilwe fa kae?",
+          "answer_tn": "2 Bakorintha 5:17; Ya reng? Ka moo ge fa motho a le mo go Kereste ya bo e le sebopiwa se sesha, dilo tsa bogologolo di fitile bonang di ntshafetse tsotlhe.",
+          "question_en": "Where else is it written?",
+          "answer_en": "2 Corinthians 5:17. It says: 'Therefore, if anyone is in Christ, he is a new creation; the old has passed away, behold, all things have become new.'"
+        },
+        {
+          "type": "qa",
+          "id": "ch2_q9",
+          "question_tn": "Gape go kwadilwe fa kae?",
+          "answer_tn": "Go kwadilwe mo Baefeso 4:22-24. Ya reng? Ka ga mokgwa wa botshelo jwa lona jwa gale lo apole motho wa bogologolo oo bolang ka fa dithatong tsa tsietso le gore lo ntshafadiwe mo moweng ya dipelo tsa lona. Mme lo apare motho yo mosha yo ka fa Modimo o bopilweng mo tshiamong le boitshepong jwa boammaruri.",
+          "question_en": "Where else is it written?",
+          "answer_en": "It is written in Ephesians 4:22-24. It says: 'Concerning your former way of life, put off the old self, which is being corrupted through deceitful desires, and be renewed in the spirit of your mind. And put on the new self, created by God in righteousness and true holiness.'"
+        },
+        {
+          "type": "qa",
+          "id": "ch2_q10",
+          "question_tn": "Motho yo o bosiwang ke nama le ditakatso tsa yona o ntse jang?",
+          "answer_tn": "Motho yo o sefofu mo dilong tsa moya ga a ditlhaloganye o tlese bogale, makgakga le bopeloethata. Ditiro tsa gagwe re di bona mo go 1 Bakorinta 2:14. Mme jaana yo e leng motho wa tlholego ga a mogele dilo tsa moya wa Modimo gonne ke dinyana mo go ene, mme ga a kake a di itse fa di sekasekiwa ka fa mokgweng wa se moya. Gape ditiro tsa moikepi re di bona mo go Bagalata 5:19-21. Ditiro tsa nama di a bonatshega ebong tlhalo, boaka le se se maswe, boitaolo, tirelo medimo e se le, tiriso ya mereo, tlhoano, komano lefufa, dikgakalo, dikganetsano, diphapano, dikgaogano tsa maitirelo, bopelotshetlha, dipolao, tsa botagwa, mediro ya botlhapelwa le tse dintseng jalo, tse ke di lo boleletseng nkile ka bua pele kare; Ba ba dirang dilo tse dintseng jalo gabanke ba rua boswa jwa puso ya Modimo.",
+          "question_en": "How does a person controlled by the flesh and its desires behave?",
+          "answer_en": "A person who is spiritually blind and does not understand becomes coarse, stubborn, and hard-hearted. We see this in 1 Corinthians 2:14: the natural man does not accept the things of the Spirit of God, for they are foolishness to him, and he cannot know them because they are discerned spiritually. The deeds of the flesh are also seen in Galatians 5:19-21: the deeds of the flesh are evident — sexual immorality, impurity and other evils, lack of self-control, idolatry, sorcery, hatred, rivalry, jealousy, anger, dissension, division, selfish factions, envy, murder, drunkenness, orgies and things like these, which I told you before; those who do such things will not inherit the kingdom of God."
+        },
+        {
+          "type": "qa",
+          "id": "ch2_q11",
+          "question_tn": "Motho yo o bapotseng nama a tsamaisiwa ke moya o ntse jang?",
+          "answer_tn": "Re mmona mo go Bagalata 5:22-25. Mme leungo la moya ke lerato, boitumelo, kagiso, bopelotelele, bopelonomi, molemo, boikanyo, boingotlo, boikgopo, le bophepa dilo tse di ntseng jalo, molao ga o ganetsane natso. Kana ba e leng ba ga Kereste Jesu ba bapotse nama le dikgotlello le dikeletso, fa re phela ka moya, a re tsamayeng ka moya le gona.",
+          "question_en": "How does a person who has crucified the flesh and is led by the Spirit behave?",
+          "answer_en": "We see this in Galatians 5:22-25. The fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control, and purity — things like this; the law does not stand against such things. Those who belong to Christ Jesus have crucified the flesh along with its passions and desires. Since we live by the Spirit, let us also walk by the Spirit."
+        },
+        { "type": "heading", "id": "ch2_h4", "label_tn": "TSEBE YA BORARO", "label_en": "Lesson Three" }
+      ]
+    },
+    {
+      "id": "ch4a",
+      "label": "KGAOLO YA BONE",
+      "label_en": "Chapter Four",
+      "title_tn": "Boitshepiso, Phodiso le Kolobetso ka Moya o Boitshepo",
+      "title_en": "Sanctification, Divine Healing, and Baptism by the Holy Spirit",
+      "blocks": [
+        { "type": "heading", "id": "ch4a_h1", "label_tn": "BOITSHEPISO KA MOYA O BOITSHEPO", "label_en": "Sanctification by the Holy Spirit" },
+        {
+          "type": "qa",
+          "id": "ch4a_q1",
+          "question_tn": "Boitshepiso ke eng?",
+          "answer_tn": "Boitshepiso ke tiro ya bobedi ya mohau wa Modimo mo motho yo o tsetsweng la bobedi. Bo ntsha sebe le modi wa sona, bo tlhaola motho mo lefatsheng bo mo tlhaolela tiro ya Modimo.",
+          "question_en": "What is sanctification?",
+          "answer_en": "Sanctification is the second work of God's grace in a person who has been born again. It removes sin and its root, separates the person from the world, and sets them apart for God's work."
+        },
+        {
+          "type": "qa",
+          "id": "ch4a_q2",
+          "question_tn": "Go kwadile fa kae?",
+          "answer_tn": "Go kwadilwe mo go Lefitiko 20:7. Ya reng? Itshepiseng lo nne boitshepo gone ke nna Morena Modimo wa lona.",
+          "question_en": "Where is this written?",
+          "answer_en": "It is written in Leviticus 20:7. It says: 'Consecrate yourselves and be holy, for I am the Lord your God.'"
+        },
+        {
+          "type": "qa",
+          "id": "ch4a_q3",
+          "question_tn": "Gape go kwadilwe fa kae?",
+          "answer_tn": "Go kwadilwe mo go 1 Batheselonika 5:23. Ya reng? Mme a Modimo wa kagiso ka nosi le itshepise gotlhe fela gore mewa ya lona le dipelo tsa lona le mebele ya lona a go bolokwe go le mmogo le ka go tlhoka molato mo go tieng ga Morena wa rona Jesu Kereste.",
+          "question_en": "Where else is it written?",
+          "answer_en": "It is written in 1 Thessalonians 5:23. It says: 'May the God of peace Himself sanctify you wholly, and may your spirit, soul, and body be kept whole and blameless at the coming of our Lord Jesus Christ.'"
+        },
+        { "type": "heading", "id": "ch4a_h2", "label_tn": "PHODISO E BOITSHEPO", "label_en": "Divine Healing" },
+        {
+          "type": "qa",
+          "id": "ch4a_q4",
+          "question_tn": "Phodiso e boitshepo ke eng?",
+          "answer_tn": "Ke phodiso e boitshepo kwa ntle ga setlhare.",
+          "question_en": "What is divine healing?",
+          "answer_en": "It is holy healing that comes without medicine."
+        },
+        {
+          "type": "qa",
+          "id": "ch4a_q5",
+          "question_tn": "Go kwadilwe fa kae?",
+          "answer_tn": "Go kwadilwe mo go Exoda 15:26. Ya reng? Fa o utlwa lentswe la Morena Modimo wa gago ka boikanyo, o dira tse di siameng mo matlhong a gagwe, o sekegela ditaolo tsa gagwe tsebe, o tshegetsa melao yotlhe ya gagwe ga nkitla ke go bolaisa bolwetse bope jo o tlhaileng Baegepeto ka jona gonne nna Morena ke tla nna ngaka ya gago.",
+          "question_en": "Where is this written?",
+          "answer_en": "It is written in Exodus 15:26. It says: 'If you diligently listen to the voice of the Lord your God, and do what is right in His eyes, give heed to His commands and keep all His laws, I will not bring on you any of the diseases I brought on the Egyptians, for I, the Lord, am your healer.'"
+        },
+        {
+          "type": "qa",
+          "id": "ch4a_q6",
+          "question_tn": "Go kwadile fa kae gape?",
+          "answer_tn": "Go kwadilwe mo go Jakoba 5:14-16. Ya reng? A mogwe mo go lona o a lwala? A bitse bagolo ba phutego ba mo rapelele, ba mo tlotse lookwane ka leina la Morena. Thapelo ya tumelo e tla thusa molwetse mme Morena o tla mo tsosa. Fa a dirile maleo tla itshwarelwa. Kamoo ipobolaneng dibe gore le fole. Thapelo ya mosiame e nonofile go dira tse dikgolo fa e le ya tlhoafalo.",
+          "question_en": "Where else is it written?",
+          "answer_en": "It is written in James 5:14-16. It says: 'Is anyone among you sick? Let him call for the elders of the church, and let them pray over him, anointing him with oil in the name of the Lord. The prayer of faith will save the sick person, and the Lord will raise him up. If he has sinned, he will be forgiven. Confess your sins to one another so that you may be healed. The prayer of a righteous person, earnestly prayed, is powerful and effective.'"
+        },
+        { "type": "heading", "id": "ch4a_h3", "label_tn": "KOLOBETSO KA MOYA O BOITSHEPO", "label_en": "Baptism by the Holy Spirit" },
+        {
+          "type": "qa",
+          "id": "ch4a_q7",
+          "question_tn": "Kolobetso ka moya o boitshepo ke eng?",
+          "answer_tn": "Kolobetso ka Moya o boitshepo ke go kolobediwa ka Moya o o boitshepo jaaka batho ba o ba neng ba le 120 ka letsatsi la Pentecoste. Modimo o tlatsa ka Moya o o boitshepo mo mothong yo o tsetsweng la bobedi a be a itsepisiwang ke Modimo. Se ke sesupo sa gore Jesu Kereste o gorogile mo go Rragwe a a tshepisitse gore fa a tsena go Rragwe o tla romela Mogomotsi ebong Moya o o boitshepo.",
+          "question_en": "What is baptism by the Holy Spirit?",
+          "answer_en": "Baptism by the Holy Spirit is being baptized with the Holy Spirit, just as the 120 people were on the day of Pentecost. God fills a person who has been born again with the Holy Spirit, setting them apart for Himself. This is a sign that Jesus Christ has returned to His Father, having promised that when He went to the Father He would send the Comforter, namely the Holy Spirit."
+        },
+        {
+          "type": "qa",
+          "id": "ch4a_q8",
+          "question_tn": "Go kwadile fa kae?",
+          "answer_tn": "Go kwadilwe mo go Johane 16:7. Ya reng? Mme ke lo bolelela boammaruri fa ke re, Go molemo go lona fa ke tsamaya, gonne fa ke sa tsamae, Mogomotsi ga a kake a tla go lona. Mme fa ke tsamaya ke tla mo romela go lona.",
+          "question_en": "Where is this written?",
+          "answer_en": "It is written in John 16:7. It says: 'But I tell you the truth, it is for your good that I am going away, because if I do not go away, the Comforter will not come to you. But when I go, I will send Him to you.'"
+        },
+        {
+          "type": "qa",
+          "id": "ch4a_q9",
+          "question_tn": "Go kwadilwe fa kae gape?",
+          "answer_tn": "Go kwadilwe mo go Ditiro 2:4. Ya reng? Mme botlhe ba tlala ka moya o boitshepo ba simolola go bua ka diteme disele ka fa moya o ba bulang ka teng.",
+          "question_en": "Where else is it written?",
+          "answer_en": "It is written in Acts 2:4. It says: 'And they were all filled with the Holy Spirit and began to speak in other tongues as the Spirit gave them utterance.'"
+        },
+        {
+          "type": "qa",
+          "id": "ch4a_q10",
+          "question_tn": "Gape go kwadilwe fa kae?",
+          "answer_tn": "Go kwadilwe mo go Johane 16:13-14. Ya reng? Fela e tla re Moya wa boammaruri o sena go tla, o le gogele mo boammaruring jotlhe, gonne ga o nke o bua ka ga ona mme o tla bua tsotlhe tse o di utlwang, ebile o tla lo itsise dilo tse ditlang. Ona o tla nkgalaletsa gonne o tla tsaya tse e leng tsa me o lo di itsise.",
+          "question_en": "Where else is it written?",
+          "answer_en": "It is written in John 16:13-14. It says: 'But when the Spirit of truth comes, He will guide you into all truth, for He will not speak on His own, but will speak whatever He hears, and He will declare to you the things that are to come. He will glorify Me, for He will take what is Mine and declare it to you.'"
+        }
+      ]
+    },
+    {
+      "id": "ch4b",
+      "label": "KGAOLO YA BONE",
+      "label_en": "Chapter Four",
+      "title_tn": "Go Tla ga Bobedi ga Jesu Kereste le Beibele",
+      "title_en": "The Second Coming of Jesus Christ, and the Bible",
+      "blocks": [
+        { "type": "heading", "id": "ch4b_h1", "label_tn": "GO TLA GA BOBEDI GA JESU KERESTE MORENA", "label_en": "The Second Coming of the Lord Jesus Christ" },
+        {
+          "type": "qa",
+          "id": "ch4b_q1",
+          "question_tn": "A Morena Jesu Kereste o e tla gape naa?",
+          "answer_tn": "Jesu Kereste Morena wa rona o e tla ga pe la bobedi go tsaya baslami ba ba phelang. Ba tla tsholediwa kwa go ena. Ba ba suleng ba swetse tumelong, ba tlaga tsoga ba mo kgatlhantsha botlhe mo loaping.",
+          "question_en": "Will the Lord Jesus Christ really come again?",
+          "answer_en": "Jesus Christ our Lord will come a second time to take the believers who are alive. They will be carried up to Him. Those who died in faith will rise, and together with the living they will all meet Him in the sky."
+        },
+        {
+          "type": "qa",
+          "id": "ch4b_q2",
+          "question_tn": "Go kwadilwe fa kae?",
+          "answer_tn": "Go kwadilwe mo go Johane 14:3. Ya reng? Mme e tla re ke sena go ya go le baakanyetsa bonno ke tle gape ke lo iseele, gore kwa ke leng teng le nne teng.",
+          "question_en": "Where is this written?",
+          "answer_en": "It is written in John 14:3. It says: 'And when I have gone to prepare a place for you, I will come again and take you to Myself, so that where I am, you may be also.'"
+        },
+        {
+          "type": "qa",
+          "id": "ch4b_q3",
+          "question_tn": "Go kwadile fa kae?",
+          "answer_tn": "Go kwadile mo go Ditiro 1:11. Ya reng? Lona banna ba Galalea, lo emetseng, lo leletse kwa legodimong. Jesu yo o tsholeditsweng kwa legodimong a tswa mo go lona o tla tla fela jaaka lo mmone a ya kwa legodimong.",
+          "question_en": "Where is it written?",
+          "answer_en": "It is written in Acts 1:11. It says: 'Men of Galilee, why do you stand looking into the sky? This same Jesus, who was taken up from you into heaven, will come back in the same way you have seen Him go into heaven.'"
+        },
+        {
+          "type": "qa",
+          "id": "ch4b_q4",
+          "question_tn": "Gape gokwadilwe fa kae?",
+          "answer_tn": "Go kwadilwe mo go 1 Bathasalonika 4:16-17. Ya reng? Gonne Morena ka nosi o tla fologa kwa Legodimong, ka mokgosi le ka lentswe la Moengele yo mogolo le ka phala ya Modimo, mme baswi ba ba swetseng mo go Kereste batla tsoga pele. Morago ga moo rona ba re setseng re tshela re tla tsholediwa kwa Loaping ka maru mmogo le bona go ya go kgatlhantsha Morena. Mme ka jalo re tla nna le Morena ka gale.",
+          "question_en": "Where else is it written?",
+          "answer_en": "It is written in 1 Thessalonians 4:16-17. It says: 'For the Lord Himself will descend from heaven with a cry of command, with the voice of the archangel, and with the trumpet of God, and the dead in Christ will rise first. After that, we who are alive and remain will be caught up together with them in the clouds to meet the Lord in the air. And so we will be with the Lord forever.'"
+        },
+        {
+          "type": "qa",
+          "id": "ch4b_q5",
+          "question_tn": "Beibele ke eng?",
+          "answer_tn": "Beibele ke kgobokanyo ya dibuka kgotsa dikwalo tse di boitshepo tsa lefoko la Modimo a le kwaletseng batho.",
+          "question_en": "What is the Bible?",
+          "answer_en": "The Bible is a collection of holy books or writings — the word of God written down for people."
+        },
+        {
+          "type": "qa",
+          "id": "ch4b_q6",
+          "question_tn": "E kwadilwe ke mang?",
+          "answer_tn": "E kwadilwe ke banna ba le 40 ba ba boitshepo ba romilwe ke Modimo ba susumediwa ke moya o boitshepo.",
+          "question_en": "Who wrote it?",
+          "answer_en": "It was written by about 40 holy men sent by God, moved by the Holy Spirit."
+        },
+        {
+          "type": "qa",
+          "id": "ch4b_q7",
+          "question_tn": "Gokwadilwe fa kae?",
+          "answer_tn": "Mo go 2 Petoro 1:20-21. Ka lo itse bogolo gore ga go polelopele epe ya lekwalo e e bolelwang katlhaloso ya boithatelo jwa motho. Gonne ga go isi go ke go tle polelopele ka go rata ga motho, mme batho ba ba boitshepo ba Modimo ba boile ba tlhotlhelediwa ke moya o o boitshepo.",
+          "question_en": "Where is this written?",
+          "answer_en": "In 2 Peter 1:20-21: 'Above all, know this: no prophecy of Scripture comes from one's own interpretation. For prophecy never had its origin in the will of man, but holy men of God spoke as they were carried along by the Holy Spirit.'"
+        },
+        {
+          "type": "qa",
+          "id": "ch4b_q8",
+          "question_tn": "Beibele e na le dibuka tse kae?",
+          "answer_tn": "Beibele e na le dibuka di le 66.",
+          "question_en": "How many books does the Bible have?",
+          "answer_en": "The Bible has 66 books."
+        },
+        {
+          "type": "qa",
+          "id": "ch4b_q9",
+          "question_tn": "Beibele e na le dikarolo tse kae?",
+          "answer_tn": "Beibele e na le dikarolo tse pedi.",
+          "question_en": "How many parts does the Bible have?",
+          "answer_en": "The Bible has two parts."
+        },
+        {
+          "type": "qa",
+          "id": "ch4b_q10",
+          "question_tn": "Di bidiwa eng?",
+          "answer_tn": "Di bidiwa kgolagano e kgologolo le e Ntsha.",
+          "question_en": "What are they called?",
+          "answer_en": "They are called the Old Testament and the New Testament."
+        },
+        {
+          "type": "qa",
+          "id": "ch4b_q11",
+          "question_tn": "Dibuka tsa kgolagano e kgologolo di kae?",
+          "answer_tn": "Di 39.",
+          "question_en": "How many books are in the Old Testament?",
+          "answer_en": "39."
+        },
+        {
+          "type": "list_answer",
+          "id": "ch4b_q12",
+          "question_tn": "Setlhopa sa ntlha sa kgolagano e kgologolo se bidiwa eng?",
+          "answer_label_tn": "Dibuka tsa molao",
+          "answer_label_en": "The Books of the Law",
+          "count": 5,
+          "items_tn": ["Genesis", "Exodo", "Lefitiko", "Dipalo", "Doitoronomio"],
+          "items_en": ["Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy"],
+          "question_en": "What is the first group of the Old Testament called?"
+        },
+        {
+          "type": "list_answer",
+          "id": "ch4b_q13",
+          "question_tn": "Setlhopa sa bobedi sa kgolagano e kgologolo se bidiwa eng?",
+          "answer_label_tn": "Dibuka tsa Ditiragalo",
+          "answer_label_en": "The Books of History",
+          "count": 12,
+          "items_tn": ["Joshua", "Baatlhodi", "Rute", "Samuele 1", "Samuele 11", "Dikgosi 1", "Dikgosi 11", "Ditiragalo 1", "Ditiragalo 11", "Esere", "Nehemia", "Esthere"],
+          "items_en": ["Joshua", "Judges", "Ruth", "1 Samuel", "2 Samuel", "1 Kings", "2 Kings", "1 Chronicles", "2 Chronicles", "Ezra", "Nehemiah", "Esther"],
+          "question_en": "What is the second group of the Old Testament called?"
+        },
+        { "type": "heading", "id": "ch4b_h2", "label_tn": "TSEBE YA BOTLHANO", "label_en": "Lesson Five" },
+        {
+          "type": "list_answer",
+          "id": "ch4b_q14",
+          "question_tn": "Setlhopa sa boraro sa kgolagano e kgologolo se bidiwa eng?",
+          "answer_label_tn": "Dibuka tsa Maboko",
+          "answer_label_en": "The Books of Wisdom",
+          "count": 5,
+          "items_tn": ["Yobe", "Dipesalome", "Diane", "Moreri", "Sefela sa Difela"],
+          "items_en": ["Job", "Psalms", "Proverbs", "Ecclesiastes", "Song of Songs"],
+          "question_en": "What is the third group of the Old Testament called?"
+        },
+        {
+          "type": "list_answer",
+          "id": "ch4b_q15",
+          "question_tn": "Setlhopa sa bone sa kgolagano e kgologolo se bidiwa eng?",
+          "answer_label_tn": "Baporofeta ba bagolo",
+          "answer_label_en": "The Major Prophets",
+          "count": 5,
+          "items_tn": ["Isaia", "Jeremia", "Dikhutsafalo", "Ezekiele", "Daniele"],
+          "items_en": ["Isaiah", "Jeremiah", "Lamentations", "Ezekiel", "Daniel"],
+          "question_en": "What is the fourth group of the Old Testament called?"
+        },
+        {
+          "type": "list_answer",
+          "id": "ch4b_q16",
+          "question_tn": "Setlhopa sa botlhano se bidiwa eng?",
+          "answer_label_tn": "Baporofeta ba Bannye",
+          "answer_label_en": "The Minor Prophets",
+          "count": 12,
+          "items_tn": ["Hosia", "Joele", "Amose", "Obadia", "Jona", "Mika", "Nahume", "Habakuke", "Sefania", "Hegai", "Sakarea", "Malakia"],
+          "items_en": ["Hosea", "Joel", "Amos", "Obadiah", "Jonah", "Micah", "Nahum", "Habakkuk", "Zephaniah", "Haggai", "Zechariah", "Malachi"],
+          "question_en": "What is the fifth group called?"
+        },
+        { "type": "heading", "id": "ch4b_h3", "label_tn": "KGOLAGANO E NTSHA", "label_en": "New Testament" },
+        {
+          "type": "qa",
+          "id": "ch4b_q17",
+          "question_tn": "Dibuka tsa kgolagano e ntsha di kae?",
+          "answer_tn": "Di 27.",
+          "question_en": "How many books does the New Testament have?",
+          "answer_en": "27."
+        },
+        {
+          "type": "list_answer",
+          "id": "ch4b_q18",
+          "question_tn": "Setlhopha sa ntlha sa kgolagano e ntsha se bidiwa eng?",
+          "answer_label_tn": "Dibuka tsa Efangedi",
+          "answer_label_en": "The Gospels",
+          "count": 4,
+          "items_tn": ["Mathaio", "Mareko", "Luka", "Johane"],
+          "items_en": ["Matthew", "Mark", "Luke", "John"],
+          "question_en": "What is the first group of the New Testament called?"
+        },
+        {
+          "type": "list_answer",
+          "id": "ch4b_q19",
+          "question_tn": "Setlhopa sa bobedi sa kgolagano e ntsha se bidiwa eng?",
+          "answer_label_tn": "Dibuka tsa Ditiragalo",
+          "answer_label_en": "The Book of History (Acts)",
+          "count": 1,
+          "items_tn": ["Ditiro"],
+          "items_en": ["Acts"],
+          "question_en": "What is the second group of the New Testament called?"
+        },
+        {
+          "type": "list_answer",
+          "id": "ch4b_q20",
+          "question_tn": "Setlhopa sa boraro sa kgolagano e ntsha se bidiwa eng?",
+          "answer_label_tn": "Dibuka tsa Kakaretso kgotsa Makwalo a Kakaretso",
+          "answer_label_en": "The General Epistles",
+          "count": 22,
+          "items_tn": ["Baroma", "Bakorinta 1", "Bakorinta 11", "Bagalatia", "Baefesia", "Bafilipi", "Bakolosa", "Bathisalonika 1", "Bathisalonika 11", "Timothio 1", "Timothio 11", "Tito", "Filimone", "Bahebera", "Jakoba", "Petoro 1", "Petoro 11", "Johane 1", "Johane 11", "Johane 111", "Juda", "Tshenolo"],
+          "items_en": ["Romans", "1 Corinthians", "2 Corinthians", "Galatians", "Ephesians", "Philippians", "Colossians", "1 Thessalonians", "2 Thessalonians", "1 Timothy", "2 Timothy", "Titus", "Philemon", "Hebrews", "James", "1 Peter", "2 Peter", "1 John", "2 John", "3 John", "Jude", "Revelation"],
+          "question_en": "What is the third group of the New Testament called?"
+        },
+        { "type": "heading", "id": "ch4b_h4", "label_tn": "TUMELO YA BOKRESTE", "label_en": "The Christian Creed" },
+        {
+          "type": "text",
+          "id": "ch4b_t1",
+          "quizzable": false,
+          "content_tn": "Ke dumela mo go Modimo Rara Mothata Yotlhe, Motlhodi wa Legodimo le Lefatshe. Le mo go Jesu Kreste Morwa Modimo yo a tsetsweng a le esi, Morena wa rona. Yo a mogetsweng mo go Moya o Boitshepo. Yo a tsetsweng ke Maria wa Lekgarebe, yo a bogisitsweng mo sefapanong, a swa, a fitlhwa. Yo a fologetsweng kwa moleteng wa molelo, yo a tlhatlogetseng kwa legodimong yo a ntseng fa seatleng se se siameng sa Modimo Rara Mothathi Yotlhe, kwa a tla tswang teng gape go sekisa baphedi le baswi. Ke dumela mo go Moya o o Boitshepo, le Kerike e nngwe fela e e boitshepo ya Bokreste, le phuthego ya baitshepi le boitshwarelo jwa dibe, le tsogo ya mmele mo baswing le bophelo jo bo sa khutleng, Amen.",
+          "content_en": "I believe in God the Father Almighty, Creator of heaven and earth; and in Jesus Christ His only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under crucifixion, died, and was buried. He descended into the place of fire, He rose again, He ascended into heaven, and sits at the right hand of God the Father Almighty, from where He will come again to judge the living and the dead. I believe in the Holy Spirit, the one holy catholic church of Christianity, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen."
+        }
+      ]
+    }
+  ]
+}
