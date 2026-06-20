@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 
 import 'data/app_state.dart';
 import 'data/content_repository.dart';
-import 'screens/home_screen.dart';
+import 'screens/main_shell.dart';
 import 'theme/app_theme.dart';
 
 void main() {
@@ -32,7 +32,7 @@ class PHCStudyApp extends StatelessWidget {
             theme: AppTheme.light(),
             darkTheme: AppTheme.dark(),
             themeMode: appState.isDark ? ThemeMode.dark : ThemeMode.light,
-            home: const HomeScreen(),
+            home: const MainShell(),
           );
         },
       ),

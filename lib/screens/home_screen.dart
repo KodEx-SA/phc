@@ -6,7 +6,6 @@ import '../data/content_repository.dart';
 import '../models/content_models.dart';
 import '../widgets/chapter_card.dart';
 import '../widgets/language_toggle.dart';
-import 'progress_screen.dart';
 import 'quiz_setup_screen.dart';
 import 'reader_screen.dart';
 
@@ -40,23 +39,11 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(_content?.title(english) ?? 'PHC Study'),
-        actions: [
-          const LanguageToggle(),
-          IconButton(
-            tooltip: 'Progress',
-            icon: const Icon(Icons.insights_outlined),
-            onPressed: () => Navigator.of(
-              context,
-            ).push(MaterialPageRoute(builder: (_) => const ProgressScreen())),
-          ),
-          IconButton(
-            tooltip: 'Toggle theme',
-            icon: Icon(
-              appState.isDark ? Icons.dark_mode : Icons.light_mode_outlined,
-            ),
-            onPressed: () => appState.toggleTheme(),
-          ),
+
+        actions: const [
+          LanguageToggle(),
         ],
+
       ),
       body: _content == null
           ? const Center(child: CircularProgressIndicator())
