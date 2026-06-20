@@ -29,7 +29,13 @@ class ReaderScreen extends StatelessWidget {
             chapter.title(english),
             style: Theme.of(context).textTheme.headlineSmall,
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: 10),
+          Container(
+            height: 2,
+            width: 64,
+            color: Theme.of(context).colorScheme.secondary,
+          ),
+          const SizedBox(height: 20),
           for (final block in chapter.blocks)
             _buildBlock(context, block, english),
         ],
@@ -187,7 +193,16 @@ class _ListAnswerCard extends StatelessWidget {
             runSpacing: 8,
             children: [
               for (int i = 0; i < items.length; i++)
-                Chip(label: Text('${i + 1}. ${items[i]}')),
+                Chip(
+                  label: Text(
+                    '${i + 1}. ${items[i]}',
+                    style: Theme.of(context).textTheme.bodyMedium,
+                  ),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 10,
+                    vertical: 6,
+                  ),
+                ),
             ],
           ),
         ],
