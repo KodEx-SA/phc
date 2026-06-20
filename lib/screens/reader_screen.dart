@@ -193,7 +193,16 @@ class _ListAnswerCard extends StatelessWidget {
             runSpacing: 8,
             children: [
               for (int i = 0; i < items.length; i++)
-                Chip(label: Text('${i + 1}. ${items[i]}')),
+                Chip(
+                  label: Text(
+                    '${i + 1}. ${items[i]}',
+                    style: Theme.of(context).textTheme.bodyMedium,
+                  ),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 10,
+                    vertical: 6,
+                  ),
+                ),
             ],
           ),
         ],
