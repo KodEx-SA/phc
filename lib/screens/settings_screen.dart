@@ -37,8 +37,9 @@ class SettingsScreen extends StatelessWidget {
                     ],
                     selected: {appState.isEnglish},
                     onSelectionChanged: (s) {
-                      if (s.first != appState.isEnglish)
+                      if (s.first != appState.isEnglish) {
                         appState.toggleLanguage();
+                      }
                     },
                   ),
                 ],
@@ -62,7 +63,7 @@ class SettingsScreen extends StatelessWidget {
                   Text('About', style: Theme.of(context).textTheme.titleMedium),
                   const SizedBox(height: 8),
                   Text(
-                    'PHC Study — a digital companion to the Pentecostal Holiness Church Sunday School catechism.',
+                    'PHC Study - a digital companion to the Pentecostal Holiness Church Sunday School catechism.',
                     style: Theme.of(context).textTheme.bodyMedium,
                   ),
                   const SizedBox(height: 4),
