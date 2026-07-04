@@ -18,12 +18,11 @@ class PHCStudyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => AppState()..load()),
-        // Swap LocalJsonContentRepository for a RemoteContentRepository
-        // here in Phase 3 - nothing else in the app needs to change.
         Provider<ContentRepository>(
           create: (_) => LocalJsonContentRepository(),
         ),
       ],
+      
       child: Consumer<AppState>(
         builder: (context, appState, _) {
           return MaterialApp(
