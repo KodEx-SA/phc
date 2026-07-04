@@ -14,7 +14,7 @@ class ProgressScreen extends StatelessWidget {
       body: history.isEmpty
           ? const Center(
               child: Text(
-                'No quiz attempts yet — take a quiz from a chapter to see your history here.',
+                'No quiz attempts yet - take a quiz from a chapter to see your history here.',
               ),
             )
           : ListView.builder(
