@@ -2,13 +2,6 @@ import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 import '../models/content_models.dart';
 
-/// Abstraction over "where the study content comes from."
-///
-/// Phase 1 implementation reads a bundled JSON asset. When Phase 3 (the
-/// multi-branch admin panel, likely backed by Supabase) is built, a
-/// `RemoteContentRepository` implementing this same interface can replace
-/// `LocalJsonContentRepository` in `main.dart` without any screen needing
-/// to change — they only ever depend on this interface.
 abstract class ContentRepository {
   Future<StudyContent> loadContent();
 }
@@ -31,7 +24,7 @@ class LocalJsonContentRepository implements ContentRepository {
   }
 }
 
-// --- Phase 3 sketch (not implemented yet) ---
+// ==================================== Phase 3 sketch ====================================
 //
 // class RemoteContentRepository implements ContentRepository {
 //   final String branchId;
