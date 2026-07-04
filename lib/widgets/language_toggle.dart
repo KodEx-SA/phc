@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../data/app_state.dart';
 
-/// A small TN/EN segmented toggle, used in app bars across Reader and
-/// Quiz screens. Setswana is listed first since it's the source language.
 class LanguageToggle extends StatelessWidget {
   const LanguageToggle({super.key});
 
