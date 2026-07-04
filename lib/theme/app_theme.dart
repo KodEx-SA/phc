@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-/// A warm, "printed study Bible" identity - parchment/ivory surfaces in
-/// light mode, deep leather-brown in dark mode, maroon and antique gold
-/// as the two accent colors, and one serif typeface (EB Garamond) used
-/// consistently for both headings and body text rather than splitting
-/// serif headings against sans-serif body"
 class AppTheme {
   static const _primarySeed = Color(0xFF6B1F2A); // deep maroon
   static const _gold = Color(0xFFB8860B); // antique gold
@@ -78,8 +73,7 @@ class AppTheme {
           fontWeight: FontWeight.w600,
           color: scheme.onSurface,
         ),
-        // A thin gold rule under the app bar instead of a Material
-        // elevation shadow — reads as a page edge, not app chrome.
+        
         shape: Border(
           bottom: BorderSide(
             color: scheme.secondary.withValues(alpha: 0.4),
