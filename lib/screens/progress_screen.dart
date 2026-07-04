@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../data/app_state.dart';
 
-/// Shows quiz history stored locally on this device. In Phase 3 this
-/// becomes the per-student view of data that an admin panel aggregates
-/// across a whole catechism class - same QuizAttempt shape, just synced.
 class ProgressScreen extends StatelessWidget {
   const ProgressScreen({super.key});
 
