@@ -5,9 +5,6 @@ import '../data/app_state.dart';
 import '../models/content_models.dart';
 import '../widgets/language_toggle.dart';
 
-/// Renders one chapter exactly as it appears in the source booklet:
-/// headings, then Potso/Karabo pairs, list-style answers, and explanatory
-/// text passages, in the same order as the document.
 class ReaderScreen extends StatelessWidget {
   final Chapter chapter;
 
