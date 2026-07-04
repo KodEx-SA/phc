@@ -1,12 +1,3 @@
-/// Data models for the PHC study content.
-///
-/// The source document is a sequence of chapters, each containing an
-/// ordered list of "blocks". A block is one of: a heading/sub-section
-/// label, a question-and-answer pair, a question whose answer is a
-/// labelled list (e.g. the Bible's book groupings), or a standalone
-/// explanatory text passage. Modelling it this way keeps the UI able to
-/// render the content in exactly the order it appears in the booklet,
-/// regardless of which block types appear where.
 library;
 
 enum BlockType { heading, qa, listAnswer, text }
@@ -36,11 +27,6 @@ abstract class ContentBlock {
         throw FormatException('Unknown block type: ${json['type']}');
     }
   }
-
-  /// Polymorphic accessors so quiz logic can treat QABlock and
-  /// ListAnswerBlock interchangeably without type-checking each one.
-  /// Non-quizzable block types (heading, text) just return empty strings —
-  /// they're filtered out via `quizzable` before this is ever called.
   String question(bool english) => '';
   String answer(bool english) => '';
 }
@@ -85,9 +71,7 @@ class QABlock extends ContentBlock {
     answerEn: json['answer_en'] ?? '',
     quizzable: json['quizzable'] ?? true,
   );
-
-  /// A flattened answer string, used both for display and as the
-  /// "correct option" text when this block is used in a quiz.
+  
   @override
   String answer(bool english) => english ? answerEn : answerTn;
   @override
@@ -133,8 +117,6 @@ class ListAnswerBlock extends ContentBlock {
   String answerLabel(bool english) => english ? answerLabelEn : answerLabelTn;
   List<String> items(bool english) => english ? itemsEn : itemsTn;
 
-  /// Renders as a single string for quiz options, e.g.
-  /// "The Books of the Law (5): Genesis, Exodus, Leviticus, Numbers, Deuteronomy"
   @override
   String answer(bool english) {
     final label = answerLabel(english);
@@ -219,9 +201,6 @@ class StudyContent {
   );
 
   String title(bool english) => english ? titleEn : titleTn;
-
-  /// Every quizzable block across the whole book — used as the fallback
-  /// distractor pool when a single chapter doesn't have enough options.
   List<ContentBlock> get allQuizzableBlocks =>
       chapters.expand((c) => c.quizzableBlocks).toList();
 }
