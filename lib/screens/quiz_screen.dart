@@ -66,8 +66,6 @@ class _QuizScreenState extends State<QuizScreen> {
 
     for (final block in chosen) {
       final correct = block.answer(_english);
-      // Build distractor pool: prefer same-scope blocks, fall back to
-      // the whole book if there aren't enough to make 3 distractors.
       final distractorSource = pool.length >= 4 ? pool : globalPool;
       final distractors =
           distractorSource
