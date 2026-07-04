@@ -2,11 +2,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// One completed quiz attempt, persisted locally so a catechism class can
-/// see progress over time. This is intentionally the same shape we'd sync
-/// to a backend later (Phase 3) — only the storage mechanism changes.
 class QuizAttempt {
-  final String chapterId; // or "all" for cumulative quizzes
+  final String chapterId;
   final String chapterLabel;
   final int correct;
   final int total;
@@ -39,8 +36,6 @@ class QuizAttempt {
   );
 }
 
-/// App-wide state: language preference, theme, and quiz history.
-/// Backed by shared_preferences so choices survive app restarts.
 class AppState extends ChangeNotifier {
   static const _kLangKey = 'phc_lang_is_english';
   static const _kThemeKey = 'phc_theme_is_dark';
@@ -87,7 +82,7 @@ class AppState extends ChangeNotifier {
     await prefs.setStringList(_kHistoryKey, historyRaw);
   }
 
-  /// Best score so far for a given chapter (or "all"), as a percentage.
+  /// Best score - as a percentage.
   double? bestScoreFor(String chapterId) {
     final attempts = _history.where((a) => a.chapterId == chapterId);
     if (attempts.isEmpty) return null;
