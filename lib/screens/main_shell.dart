@@ -3,10 +3,6 @@ import 'home_screen.dart';
 import 'progress_screen.dart';
 import 'settings_screen.dart';
 
-/// The app's persistent navigation shell. Home, Progress, and Settings
-/// live as tabs here; Reader and Quiz screens still push on top via
-/// Navigator from within the Home tab, since those are a "drill into
-/// a chapter" flow rather than top-level destinations.
 class MainShell extends StatefulWidget {
   const MainShell({super.key});
 
@@ -22,9 +18,6 @@ class _MainShellState extends State<MainShell> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // IndexedStack keeps all three screens alive in memory rather than
-      // rebuilding them on every tab switch — so Home's loaded content
-      // and scroll position survive switching to Progress and back.
       body: IndexedStack(index: _index, children: _screens),
       bottomNavigationBar: NavigationBar(
         selectedIndex: _index,
