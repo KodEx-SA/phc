@@ -160,21 +160,48 @@ class _QuizScreenState extends State<QuizScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            LinearProgressIndicator(
-              value: (_index) / _questions.length,
+            ClipRRect(
               borderRadius: BorderRadius.circular(8),
-            ),
-            const SizedBox(height: 24),
-            Text(
-              'POTSO',
-              style: Theme.of(
-                context,
-              ).textTheme.labelLarge?.copyWith(color: scheme.primary),
+              child: LinearProgressIndicator(
+                value: (_index) / _questions.length,
+                minHeight: 6,
+                backgroundColor: scheme.secondary.withValues(alpha: 0.15),
+                valueColor: AlwaysStoppedAnimation<Color>(scheme.secondary),
+              ),
             ),
             const SizedBox(height: 6),
             Text(
-              q.questionText,
-              style: Theme.of(context).textTheme.headlineSmall,
+              '${_index + 1} of ${_questions.length}',
+              style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                color: scheme.onSurface.withValues(alpha: 0.5),
+              ),
+            ),
+            const SizedBox(height: 20),
+            Container(
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                color: scheme.primary.withValues(alpha: 0.07),
+                borderRadius: BorderRadius.circular(12),
+                border: Border(
+                  left: BorderSide(color: scheme.primary, width: 4),
+                ),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'POTSO',
+                    style: Theme.of(
+                      context,
+                    ).textTheme.labelLarge?.copyWith(color: scheme.primary),
+                  ),
+                  const SizedBox(height: 6),
+                  Text(
+                    q.questionText,
+                    style: Theme.of(context).textTheme.titleLarge,
+                  ),
+                ],
+              ),
             ),
             const SizedBox(height: 24),
             Expanded(
@@ -203,41 +230,64 @@ class _QuizScreenState extends State<QuizScreen> {
 
   Widget _buildOption(String option, _QuizQuestion q) {
     final scheme = Theme.of(context).colorScheme;
-    Color? bg;
-    Color? fg;
-    IconData? icon;
+    final isCorrect = option == q.correctAnswer;
+    final isSelected = option == _selected;
+
+    Color bgColor;
+    Color borderColor;
+    Widget? trailingIcon;
 
     if (_answered) {
-      if (option == q.correctAnswer) {
-        bg = scheme.primaryContainer;
-        icon = Icons.check_circle;
-      } else if (option == _selected) {
-        bg = scheme.errorContainer;
-        icon = Icons.cancel;
+      if (isCorrect) {
+        bgColor = const Color(0xFFE8F5E9);
+        borderColor = Colors.green.shade700;
+        trailingIcon = Icon(
+          Icons.check_circle,
+          color: Colors.green.shade700,
+          size: 22,
+        );
+      } else if (isSelected) {
+        bgColor = const Color(0xFFFFEBEE);
+        borderColor = scheme.error;
+        trailingIcon = Icon(Icons.cancel, color: scheme.error, size: 22);
+      } else {
+        bgColor = scheme.surface;
+        borderColor = scheme.outlineVariant;
+        trailingIcon = null;
       }
+    } else {
+      bgColor = scheme.surface;
+      borderColor = scheme.secondary.withValues(alpha: 0.5);
+      trailingIcon = null;
     }
 
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 6),
-      child: Material(
-        color: bg ?? scheme.surfaceContainerHighest,
-        borderRadius: BorderRadius.circular(14),
-        child: InkWell(
-          borderRadius: BorderRadius.circular(14),
-          onTap: () => _selectOption(option),
-          child: Padding(
-            padding: const EdgeInsets.all(14),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                if (icon != null)
-                  Padding(
-                    padding: const EdgeInsets.only(right: 10, top: 2),
-                    child: Icon(icon, color: fg, size: 20),
-                  ),
-                Expanded(child: Text(option)),
+      child: InkWell(
+        onTap: () => _selectOption(option),
+        borderRadius: BorderRadius.circular(10),
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 250),
+          decoration: BoxDecoration(
+            color: bgColor,
+            borderRadius: BorderRadius.circular(10),
+            border: Border.all(color: borderColor, width: 1.5),
+          ),
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Expanded(
+                child: Text(
+                  option,
+                  style: Theme.of(context).textTheme.bodyLarge,
+                ),
+              ),
+              if (trailingIcon != null) ...[
+                const SizedBox(width: 10),
+                trailingIcon,
               ],
-            ),
+            ],
           ),
         ),
       ),
