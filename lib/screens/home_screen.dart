@@ -7,6 +7,7 @@ import '../models/content_models.dart';
 import '../widgets/chapter_card.dart';
 import '../widgets/language_toggle.dart';
 import '../widgets/home_reader.dart';
+import '../widgets/phc_loading.dart';
 import 'quiz_setup_screen.dart';
 import 'reader_screen.dart';
 
@@ -44,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
 
       body: _content == null
-          ? const Center(child: CircularProgressIndicator())
+          ? const PhcLoading()
           : ListView.builder(
               padding: const EdgeInsets.only(bottom: 12),
               itemCount: _content!.chapters.length + 1,

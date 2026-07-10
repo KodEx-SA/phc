@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../data/app_state.dart';
 import '../models/content_models.dart';
 import 'quiz_results_screen.dart';
+import '../widgets/phc_empty_state.dart';
 
 class _QuizQuestion {
   final ContentBlock source;
@@ -144,7 +145,11 @@ class _QuizScreenState extends State<QuizScreen> {
     if (_questions.isEmpty) {
       return Scaffold(
         appBar: AppBar(title: const Text('Quiz')),
-        body: const Center(child: Text('Not enough content to quiz on yet.')),
+        body: const PhcEmptyState(
+        symbol: '†',
+        title: 'Not enough questions',
+        message: 'This chapter does not have enough content to generate a quiz.',
+      ),
       );
     }
 

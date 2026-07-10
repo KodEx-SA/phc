@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../data/app_state.dart';
+import '../widgets/phc_empty_state.dart';
 
 class ProgressScreen extends StatelessWidget {
   const ProgressScreen({super.key});
@@ -12,10 +13,10 @@ class ProgressScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Your progress')),
       body: history.isEmpty
-          ? const Center(
-              child: Text(
-                'No quiz attempts yet - take a quiz from a chapter to see your history here.',
-              ),
+          ? const PhcEmptyState(
+              symbol: '†',
+              title: 'No attempts yet',
+              message: 'Complete a quiz from any chapter and your results will appear here.',
             )
           : ListView.builder(
               padding: const EdgeInsets.all(12),
