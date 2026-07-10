@@ -26,7 +26,7 @@ class HomeHeader extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           // Cross ornament
-          Text('✛', style: TextStyle(fontSize: 28, color: scheme.secondary)),
+          Text('†', style: TextStyle(fontSize: 28, color: scheme.secondary)),
           const SizedBox(height: 10),
           // Church name
           Text(
