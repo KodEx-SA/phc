@@ -6,6 +6,7 @@ import '../data/content_repository.dart';
 import '../models/content_models.dart';
 import '../widgets/chapter_card.dart';
 import '../widgets/language_toggle.dart';
+import '../widgets/home_reader.dart';
 import 'quiz_setup_screen.dart';
 import 'reader_screen.dart';
 
@@ -38,20 +39,20 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(_content?.title(english) ?? 'PHC Study'),
-
-        actions: const [
-          LanguageToggle(),
-        ],
-
+        title: const Text('PHC Study'),
+        actions: const [LanguageToggle()],
       ),
+
       body: _content == null
           ? const Center(child: CircularProgressIndicator())
           : ListView.builder(
-              padding: const EdgeInsets.symmetric(vertical: 12),
-              itemCount: _content!.chapters.length,
+              padding: const EdgeInsets.only(bottom: 12),
+              itemCount: _content!.chapters.length + 1,
               itemBuilder: (context, index) {
-                final chapter = _content!.chapters[index];
+                if (index == 0) {
+                  return HomeHeader(english: english);
+                }
+                final chapter = _content!.chapters[index - 1];
                 return ChapterCard(
                   chapter: chapter,
                   english: english,
